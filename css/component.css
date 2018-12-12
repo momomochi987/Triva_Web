@@ -7,8 +7,56 @@ body {
 	background: #000000;
 }
 
+.navbar {
+	background-color: #000000;
+	position: fixed;
+	z-index: 999;
+	width: 85%;
+	height: 13.5%;
+	opacity: 0.85;
+}
+
+.logo-wrapper {
+	text-align: center;
+	margin-bottom: -37px;
+}
+
+.logo {
+	width: auto;
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.navbar li {
+	display: inline-block;
+	padding: 0 15px;
+	color: #ffffff;
+}
+
+.navbar a{
+	text-decoration:none;
+	color: #ffffff;
+}
+
+.half {
+	width: 50%;
+	display: block;
+	float: left;
+}
+
+.right-navlist {
+	padding-left: 70px;
+	margin-top: -6px;
+}
+
+.left-navlist {
+	text-align: right;
+	padding-right: 70px;
+	margin-top: -6px;
+}
+
 .grid {
-	padding: 20px 20px 100px 20px;
+	padding: 50px 20px 50px 0px;
 	max-width: 1300px;
 	margin: 0 auto;
 	list-style: none;
@@ -17,7 +65,7 @@ body {
 
 .grid li {
 	display: inline-block;
-	width: 350px;
+	width: 300px;
 	margin: 0;
 	padding: 50px;
 	text-align: center;
@@ -51,8 +99,8 @@ body {
 	color: #fff;
 }
 
-.grid figcaption span:before {
-	content: 'by ';
+.grid figcaption span {
+	padding-top: 10px;
 }
 
 /* Caption Style 7 */
@@ -89,13 +137,13 @@ body {
 .no-touch .cs-style-7 figure:hover figcaption,
 .cs-style-7 figure.cs-hover figcaption {
 	opacity: 1;
-	height: 125%;
+	height: 138%;
 	box-shadow: 0 0 0 10px #2c3f52;
 }
 
 /*項目白字*/
 .cs-style-7 figcaption h3 {
-	margin-top: 115%;
+	margin-top: 105%;
 	text-align: center;
 }
 
@@ -133,6 +181,18 @@ body {
 	font-size: 14px;
 	line-height: 18px;
   }
+
+.footer {
+	background-color:#000000;
+	z-index: 999;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	opacity: 0.85;
+	padding: 10px;
+}
 
 @media screen and (max-width: 31.5em) {
 	.grid {
