@@ -4,7 +4,7 @@ var offsetTop = test.offsetTop;
 //声明左眼夹角a1、右眼夹角a2
 var a1, a2;
 //声明左眼圆心(X1,Y1)、右眼圆心(X2,Y2)
-var X1 = 83, Y1 = 143, X2 = 151, Y2 = 143;
+var X1 = 79, Y1 = 140, X2 = 151, Y2 = 140;
 //声明半径
 var R = 12;
 document.onmousemove = function (e) {
