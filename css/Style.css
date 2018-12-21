@@ -14,14 +14,14 @@ body {
 	position:absolute;
 	left:50%;
 	top:50%;
-	margin-top:200px;
+	margin-top:230px;
 	margin-left:-105px;
 }
 .BOX3 {
 	position:absolute;
 	left:50%;
 	top:50%;
-	margin-top:120px;
+	margin-top:165px;
 	margin-left:-400px;
 }
 
@@ -34,6 +34,15 @@ body {
 	top:50%;
 	margin-top:-270px;
 	margin-left:-140px;
+}
+#test h4{
+	font-family: Microsoft JhengHei;
+	position:absolute;
+	font-weight:normal;
+	color:#ffffff;
+	top:383px; 
+	left:-15px; 	
+	
 }
 #ball1 {
     position: absolute;
