@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <!--引入鼠标闪烁效果CSS(可选)-->
+    <link rel="stylesheet" href="css/typing.css">
+    <!--引入typing.js，核心文件-->
+    <script src="js/typing.js"></script>
+    <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/3.4.0/es5-shim.min.js"></script>
+    <![endif]-->
+    <title>Trivia -冷知識情報站-</title>
+
+</head>
+
+<body>
+    <div id="talk">
+        <img src="images/對話框.png" width="980">
+    </div>
+    <div id="output-wrap"> 
+        <span id="output"></span>
+        <div id="source">
+            <h3>你好!歡迎進入Trivia -冷知識情報站- !</h3>
+            <h3>我是Trivia小精靈 ✧*｡٩(ˊᗜˋ*)و✧*｡</h3>
+        </div>
+       
+    </div>
+</body>
+
+<script>
+    var typing = new Typing({
+        source: document.getElementById('source'),
+        output: document.getElementById('output'),
+        delay: 50
+    });
+    typing.start();
+</script>
+
+</html>

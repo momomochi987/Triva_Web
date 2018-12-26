@@ -1,0 +1,37 @@
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+body {
+  background-image: url(images/Trivia_background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#talk{
+  position: absolute; 
+  margin-top:190px;
+  margin-left:200px;
+}
+
+#output-wrap{
+  position: absolute; 
+  margin-top:193px;
+  margin-left:240px;
+  font-family:Microsoft JhengHei;
+}
+
+#source{
+  text-indent:-9999px;
+  overflow:hidden;
+}
