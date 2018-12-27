@@ -1,15 +1,3 @@
-@keyframes blink {
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-webkit-keyframes blink {
-  0% { opacity: 1; }
-  50% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
 body {
   background-image: url(../images/Trivia_background.jpg);
   background-repeat: no-repeat;
@@ -22,6 +10,18 @@ body {
   position: absolute; 
   margin-top:190px;
   margin-left:200px;
+}
+
+#next{
+  position: absolute; 
+  margin-top:258px;
+  margin-left:895px;
+}
+
+#skip{
+  margin-left: 1020px;
+  position: absolute; 
+  margin-top:100px;
 }
 
 #output-wrap{
