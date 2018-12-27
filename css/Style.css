@@ -27,7 +27,7 @@ body {
 
 /*眼睛設定*/
 #test {
-    width: 300px;
+    width: 350px;
 	height: 350px;
 	position:absolute;
 	left:50%;
@@ -36,12 +36,12 @@ body {
 	margin-left:-140px;
 }
 #test h4{
-	font-family: Microsoft JhengHei;
 	position:absolute;
 	font-weight:normal;
 	color:#ffffff;
-	top:383px; 
-	left:-15px; 	
+	text-align: center;
+	margin-top:43px;
+	margin-left:-10px;
 	font-family:Microsoft JhengHei;
 }
 #ball1 {
