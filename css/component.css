@@ -4,61 +4,64 @@ body, html { font-size: 100%; padding: 0; margin: 0;}
 body {
 	font-family: "Segoe UI","微軟正黑體",sans-serif;
 	color: #000000;
-	background: #000000;
+	background-image: url('../images/Trivia_background.jpg');
 }
+
+#mainContent {
+	clear: both;
+	margin: 0 auto;
+	width: 80%;
+	padding: 120px 20px 10px 0px;
+}
+
+#line{
+	padding: 80px 0 0 0;
+}
+
+
 /*導覽列設定*/
 .navbar {
 	background-color: #000000;
 	position: fixed;
 	z-index: 999;
-	width: 85%;
-	height: 13.5%;
-	opacity: 0.85;
+	width: 80%;
+	height: 65px;
+	opacity: 1;
 }
 /*logo設定*/
 .logo-wrapper {
-	text-align: center;
-	margin-bottom: -37px;
+	position: relative;
+	text-align: left;
+	margin-left: 100px;
 }
 
 .logo {
 	width: auto;
 	display: inline-block;
-	margin-top: 5px;
+	margin-top: 0px;
 }
 
 .navbar li {
 	display: inline-block;
-	padding: 0 15px;
-	color: #ffffff;
+	padding: 0 15px 0 0;
 }
 
 .navbar a{
 	text-decoration:none;
 	color: #ffffff;
-}
-
-.half {
-	width: 50%;
-	display: block;
-	float: left;
-}
-
-.right-navlist {
-	padding-left: 70px;
-	margin-top: -6px;
+	font-size: 0.9rem;
+	margin-top: 1px;
 }
 
 .left-navlist {
 	text-align: right;
-	padding-right: 70px;
-	margin-top: -6px;
+	padding-right:40px;
+	margin-top: -60px;
 }
-
 
 /*九宮格版面設定*/
 .grid {
-	padding: 50px 20px 50px 0px;
+	padding: 10px 20px 50px 0px;
 	max-width: 1300px;
 	margin: 0 auto;
 	list-style: none;
@@ -77,7 +80,9 @@ body {
 .grid figure {
 	margin: 0;
 	position: relative;
+	cursor: pointer;
 }
+
 
 .grid figure img {
 	max-width: 100%;
@@ -85,102 +90,19 @@ body {
 	position: relative;
 }
 
-.grid figcaption {
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 20px;
-	background: #2c3f52;
-	color: #ed4e6e;
-	text-align: center;
-}
-
-.grid figcaption h3 {
-	margin: 0;
+.grid h3 {
+	margin: 10 0 0 0 ;
 	padding: 0;
-	color: #fff;
+	color: #ffffff;
+	cursor: default;
 }
 
-.grid figcaption span {
-	padding-top: 10px;
+.grid span {
+	color: #949494;
+	padding-top: 9px;
+	cursor: default;
 }
 
-/* Caption Style 7 */
-/*圖層設定*/
-.cs-style-7 li:first-child { z-index: 9; }
-.cs-style-7 li:nth-child(2) { z-index: 8; }
-.cs-style-7 li:nth-child(3) { z-index: 7; }
-.cs-style-7 li:nth-child(4) { z-index: 6; }
-.cs-style-7 li:nth-child(5) { z-index: 5; }
-.cs-style-7 li:nth-child(6) { z-index: 4; }
-.cs-style-7 li:nth-child(7) { z-index: 3; }
-.cs-style-7 li:nth-child(8) { z-index: 2; }
-.cs-style-7 li:nth-child(9) { z-index: 1; }
-
-.cs-style-7 figure img {
-	z-index: 13;
-}
-
-/*外框寬度設定*/
-.cs-style-7 figcaption {
-	height: 100%;
-	width: 100%;
-	opacity: 0;
-	-webkit-backface-visibility: hidden;
-	-moz-backface-visibility: hidden;
-	backface-visibility: hidden;
-	-webkit-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
-	-moz-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
-	transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
-	box-shadow: 0 0 0 0px #2c3f52;
-}
-
-/*外框高度設定*/
-.no-touch .cs-style-7 figure:hover figcaption,
-.cs-style-7 figure.cs-hover figcaption {
-	opacity: 1;
-	height: 135%;
-	box-shadow: 0 0 0 10px #2c3f52;
-}
-
-/*項目白字*/
-.cs-style-7 figcaption h3 {
-	margin-top: 105%;
-	text-align: center;
-}
-
-.cs-style-7 figcaption h3,
-.cs-style-7 figcaption span,
-.cs-style-7 figcaption a {
-	opacity: 0;
-	-webkit-transition: opacity 0s;
-	-moz-transition: opacity 0s;
-	transition: opacity 0s;
-}
-
-.no-touch .cs-style-7 figure:hover figcaption h3,
-.no-touch .cs-style-7 figure:hover figcaption span,
-.no-touch .cs-style-7 figure:hover figcaption a,
-.cs-style-7 figure.cs-hover figcaption h3,
-.cs-style-7 figure.cs-hover figcaption span,
-.cs-style-7 figure.cs-hover figcaption a {
-	-webkit-transition: opacity 0.3s 0.2s;
-	-moz-transition: opacity 0.3s 0.2s;
-	transition: opacity 0.3s 0.2s;
-	opacity: 1;
-}
-
-.flex-caption {
-	width: 96%;
-	padding: 2%;
-	left: 0;
-	bottom: 0;
-	background: rgba(0,0,0,.5);
-	color: #fff;
-	text-shadow: 0 -1px 0 rgba(0,0,0,.3);
-	font-size: 14px;
-	line-height: 18px;
-  }
 
 /*頁腳設定*/
 .footer {
