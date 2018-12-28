@@ -114,7 +114,13 @@ body {
 	color: #404040;
 	text-align:center;
 	opacity: 0.85;
-	padding: 10px;
+	padding: 30px;
+}
+
+.icon-link li{
+	width: 30px;
+	display: inline-block;
+	padding: 0 15px 20px 30px;
 }
 
 @media screen and (max-width: 31.5em) {
