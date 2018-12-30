@@ -14,11 +14,6 @@ body {
 	padding: 120px 20px 10px 0px;
 }
 
-#line{
-	padding: 80px 0 0 0;
-}
-
-
 /*導覽列設定*/
 .navbar {
 	background-color: #000000;
@@ -61,8 +56,8 @@ body {
 
 /*九宮格版面設定*/
 .grid {
-	padding: 10px 20px 50px 0px;
-	max-width: 1300px;
+	padding: 30px 20px 50px 0px;
+	max-width: 1000px;
 	margin: 0 auto;
 	list-style: none;
 	text-align: center;
@@ -111,16 +106,24 @@ body {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	color: #404040;
-	text-align:center;
 	opacity: 0.85;
-	padding: 30px;
+	padding: 5px;
 }
 
-.icon-link li{
-	width: 30px;
+.footer h5 {
+	text-align: center;
+	padding:3px;
+	color: #404040;
+}
+
+.footer li {
 	display: inline-block;
-	padding: 0 15px 20px 30px;
+	padding: 2px;
+	color: #404040;
+}
+
+.footerlink{
+	text-align: center;
 }
 
 @media screen and (max-width: 31.5em) {
