@@ -6,28 +6,32 @@ body {
   background-size: cover;
 }
 
-#talk{
-  position: absolute; 
-  margin-top:190px;
-  margin-left:200px;
+.introlink {
+	width: 1000px;
+	height: 320px;	
+	position:absolute;
+	left:50%;
+	top:50%;	
+  margin-top:-110px;
+  margin-left:-500px;
 }
 
 #next{
   position: absolute; 
-  margin-top:258px;
-  margin-left:895px;
+  margin-top:-250px;
+  margin-left:700px;
 }
 
 #skip{
-  margin-left: 1020px;
+  margin-left: 870px;
   position: absolute; 
-  margin-top:100px;
+  margin-top:-400px;
 }
 
 #output-wrap{
   position: absolute; 
-  margin-top:193px;
-  margin-left:240px;
+  margin-top:-320px;
+  margin-left:50px;
   font-family:Microsoft JhengHei;
 }
 
@@ -35,3 +39,4 @@ body {
   text-indent:-9999px;
   overflow:hidden;
 }
+
