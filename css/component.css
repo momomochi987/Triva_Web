@@ -50,7 +50,7 @@ body {
 .navbar {
 	background-color: #000000;
 	position: fixed;
-	width: 100%;
+	width: 84.3%;
 	z-index: 999;
 	height: 65px;
 	opacity: 1;
@@ -81,7 +81,6 @@ body {
 
 .left-navlist {
 	text-align: right;
-	padding-right:230px;
 	margin-top: -60px;
 }
 
