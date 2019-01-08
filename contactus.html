@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Trivia -冷知識情報站-</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+</head>
+
+<body>
+	<div class="container ">
+		<div class="navbar">
+			<div class="logo-wrapper">
+				<div class="logo"><a href="index.html"><img class="logo" src="images/Triva_logo.png" height="60"></a></div>
+				<ul class="left-navlist">
+					<li><a href="Pages.html"><img src="images/首頁.png" height="60"></a></li>
+					<li><a href="aboutus.html"><img src="images/關於我們.png" height="60"></a></li>
+					<li><a href="Pages.html#遊戲介紹"><img src="images/遊戲介紹.png" height="60"></a></li>
+					<li><a href="#"><img src="images/聯絡我們.png" height="60"></a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="contactus">
+			<div id="text_pos">
+				<div class="row d-inline-block">
+					<form class="form-inline">
+						<div id="title">聯絡我們</div>
+						<div class="input-group form_width">
+							<div class="input-group-addon form_border">稱呼</div>
+							<input type="text" class="form-control" name="name" placeholder="您的名字" required>
+						</div>
+						<div class="input-group form_width">
+							<div class="input-group-addon form_border">標題</div>
+							<input type="text" class="form-control" name="title" placeholder="問題標題" required>
+						</div>
+						<div class="input-group form_width">
+							<div class="input-group-addon form_border" style="width:30%">問題分類</div>
+							<select class="form-control" id="exampleFormControlSelect1" placeholder="Title" required>
+								<option>- 請選擇您的問題 -</option>
+								<option>回報 BUG</option>
+								<option>意見回覆</option>
+								<option>其他</option>
+							</select>
+						</div>
+						<div class="input-group form_width">
+							<div class="input-group-addon form_border" style="width:30%">聯絡信箱</div>
+							<input type="text" class="form-control" name="title" placeholder="我們會回覆到您留下的信箱" required>
+						</div>
+						<div class="input-group form_width">
+							<textarea class="form-control" name="detalii" rows="10" type="text" placeholder="詳細問題敘述"></textarea>
+						</div>
+					</form>
+					<button type="button" id="submit" name="submit" class="btn btn-primary botton">送出</button>
+				</div>
+			</div>
+			<img src="images/contactbg.png" id="img1" style="width:60%; height:10%;" />
+		</div>
+		<div class="footer" style="text-align:center">
+			<ul class="footerlink">
+				<li><a href="#"><img src="images/twitter_icon.png" height="25"></a></li>
+				<li><a href="#"><img src="images/fb_icon.png" height="25"></a></li>
+				<li><a href="#"><img src="images/line_icon.png" height="25"></a></li>
+				<li><a href="#"><img src="images/ig_icon.png" height="25"></a></li>
+				<h5>Copyright © 2018 Weekly Aplaca. All rights reserved.</h5>
+			</ul>
+		</div>
+
+	</div>
+</body>
+
+</html>
