@@ -27,7 +27,7 @@ body {
 }
 
 #text_pos{
-	padding:5px 40px 10px 20px;
+	padding:5px 20px 10px 20px;
 	position: absolute;/*绝对定位*/
 	width: 100%;
 	text-align: center;
@@ -103,12 +103,18 @@ body {
 }
 
 .test{
-	width:80%;
+	width:90%;
 }
 
 .test2{
-	width:80%;
+	width:100%;
 	padding-bottom: 30px;
+}
+
+#text2{
+	margin-top: 70px;
+	margin-left: 28px;
+	line-height: 30px;
 }
 
 /*導覽列設定*/
