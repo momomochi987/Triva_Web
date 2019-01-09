@@ -18,7 +18,7 @@ body {
 	position: relative;/*相对定位*/
 	text-align:center;
 	width: 100%;
-	padding: 110px 20px 10px 0px;
+	padding: 110px 0px 10px 0px;
 }
 
 #aboutus img{
@@ -51,7 +51,7 @@ body {
 	position: relative;/*相对定位*/
 	text-align:center;
 	width: 100%;
-	padding: 110px 20px 10px 0px;
+	padding: 110px 0px 10px 0px;
 }
 
 .form_width{
@@ -83,7 +83,33 @@ body {
 	font-size: 1rem;
 }
 
+#battle{
+	position: relative;/*相对定位*/
+	text-align:center;
+	width: 100%;
+	padding: 110px 0px 10px 0px;
+}
 
+#battle-title{
+	padding: 8px 20px 0px 20px;
+	font-size: 2.5em;
+	color: white;
+}
+
+.title-bg{
+	width:70%;
+	padding-bottom: 30px;
+	text-align:center;
+}
+
+.test{
+	width:80%;
+}
+
+.test2{
+	width:80%;
+	padding-bottom: 30px;
+}
 
 /*導覽列設定*/
 .navbar {
@@ -125,7 +151,7 @@ body {
 
 /*九宮格版面設定*/
 .grid {
-	padding: 30px 20px 50px 0px;
+	padding: 30px 20px 15px 0px;
 	max-width: 1000px;
 	margin: 0 auto;
 	list-style: none;
@@ -204,5 +230,12 @@ body {
 	.grid li {
 		width: 100%;
 		min-width: 300px;
+	}
+	#aboutus{
+		min-height: 100%;
+		height: 2650px;
+	}
+	.imgtest{ 
+		min-width: 250px;
 	}
 }
