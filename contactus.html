@@ -28,8 +28,8 @@
 		<div id="contactus">
 			<div id="text_pos">
 				<div class="row d-inline-block">
-					<form class="form-inline">
-						<div id="title" ><strong>聯絡我們</strong></div>
+					<form class="form-inline" method="POST" action="formget.php">
+						<div id="title"><strong>聯絡我們</strong></div>
 						<div class="input-group form_width">
 							<div class="input-group-addon form_border">稱呼</div>
 							<input type="text" class="form-control" name="name" placeholder="您的名字" required>
@@ -40,7 +40,7 @@
 						</div>
 						<div class="input-group form_width">
 							<div class="input-group-addon form_border" style="width:30%">問題分類</div>
-							<select class="form-control" id="exampleFormControlSelect1" placeholder="Title" required>
+							<select class="form-control" id="exampleFormControlSelect1" placeholder="Title" name="QQQ" required>
 								<option>- 請選擇您的問題 -</option>
 								<option>回報 BUG</option>
 								<option>意見回覆</option>
@@ -49,16 +49,17 @@
 						</div>
 						<div class="input-group form_width">
 							<div class="input-group-addon form_border" style="width:30%">聯絡信箱</div>
-							<input type="text" class="form-control" name="title" placeholder="我們會回覆到您留下的信箱" required>
+							<input type="text" class="form-control" name="email" placeholder="我們會回覆到您留下的信箱" required>
 						</div>
 						<div class="input-group form_width">
 							<textarea class="form-control" name="detalii" rows="10" type="text" placeholder="詳細問題敘述"></textarea>
 						</div>
+						<br />
+						<button type="submit" id="submit" name="submit" class="btn btn-primary botton">送出</button>
 					</form>
-					<button type="button" id="submit" name="submit" class="btn btn-primary botton">送出</button>
 				</div>
 			</div>
-			<img src="images/contactbg.png" id="img1" style="width:60%; padding: 0px 0px 25px 0px;" />
+			<img src="images/contactbg.png" id="img1" style="width:60%; padding: 0px 0px 25px 0px;" class="contactbg"/>
 		</div>
 		
 		<div class="footer" style="text-align:center">
