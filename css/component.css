@@ -117,6 +117,10 @@ body {
 	line-height: 30px;
 }
 
+.gametest{
+	width: 90%;
+}
+
 /*導覽列設定*/
 .navbar {
 	background-color: #000000;
@@ -229,7 +233,8 @@ body {
 	padding: 0;
 }
 
-@media screen and (max-width: 31.5em) {
+
+@media screen and (max-width: 75em) {
 	.grid {
 		padding: 10px 10px 100px 10px;
 	}
@@ -239,9 +244,99 @@ body {
 	}
 	#aboutus{
 		min-height: 100%;
-		height: 2650px;
+		height: 2400px;
 	}
 	.imgtest{ 
 		min-width: 250px;
 	}
+	.contactbg{
+		height: 860px;
+	}
+	.gametest{
+		height: 1600px;
+	}
+	.gametitlebg{
+		height: 125px;
+	}
 }
+
+@media screen and (max-width: 62em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+	#aboutus{
+		min-height: 100%;
+		height: 2500px;
+	}
+	.imgtest{ 
+		min-width: 250px;
+	}
+	.gametest{
+		height: 1200px;
+	}
+	.gametitlebg{
+		height: 125px;
+	}
+}
+
+@media screen and (max-width: 46em) {
+	.gameintro{
+		min-width:250px;
+	}
+	.gametest{
+		height: 1100px;
+	}
+	.gametitlebg{
+		height: 125px;
+	}
+}
+
+@media screen and (max-width: 45em) {
+	.gameintro{
+		min-width:250px;
+	}
+	.gametest{
+		height: 1600px;
+	}
+	.gametitlebg{
+		height: 125px;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
+	.carousel-control{
+		opacity: 0;
+	}
+	#aboutus{
+		min-height: 100%;
+		height: 2850px;
+	}
+	.imgtest{ 
+		min-width: 250px;
+	}
+	.contactbg{
+		height: 860px;
+	}
+	.gameintro{
+		min-width:250px;
+	}
+	.gametest{
+		height: 850px;
+	}
+	.gametitlebg{
+		height: 125px;
+	}
+}
+
+
